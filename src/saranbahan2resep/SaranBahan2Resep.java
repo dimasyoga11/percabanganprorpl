@@ -5,6 +5,8 @@
  */
 package saranbahan2resep;
 
+import java.util.Scanner;
+
 /**
  *
  * @author DYPe
@@ -18,7 +20,14 @@ public class SaranBahan2Resep {
         String identitas = "Dimas Yoga Pratama / XR3 / 11";
         System.out.println("Identitas : "+ identitas);
         
-        System.out.print("\nSaran Resep dari Bahan Milik Anda\n");
+        System.out.print("\nSaran Resep dari Bahan Milik Anda\n"); 
+        
+    Scanner scanner = new Scanner(System.in);
+        System.out.println("Bahan pertama: ");
+        System.out.println("1. Pisang");
+        System.out.println("2. Telur");
+        System.out.println("Masukkan no pilihan Anda :");
+        int bahan1 = scanner.nextInt();
     }
     
 }
